@@ -11,5 +11,10 @@
       "src": "/.*",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "FLUTTER_WEB_RENDERER": "canvaskit"  // or "html" if preferred
+    }
+  }
 }
