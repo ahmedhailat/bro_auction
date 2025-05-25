@@ -1,0 +1,10 @@
+{
+  "name": "flutter_web_vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "flutter build web --release"
+  },
+  "devDependencies": {
+    "@vercel/static-build": "^1.0.0"
+  }
+}
